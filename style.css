@@ -1,0 +1,28 @@
+.column{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* make it the same size */
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.grid-column{
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr)
+    grid-gap: 5px;
+}
+
+.item{
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    line-height: 20%;
+    color: black;
+}
+h4{
+    line-height: 0%;
+}
+
+    
